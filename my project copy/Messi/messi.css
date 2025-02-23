@@ -1,0 +1,134 @@
+@font-face {
+    font-family: AKONY;
+    src: url(/fonts/AKONY.ttf);
+}
+@font-face {
+  font-family: 'SF-Rounded';
+  src: url(/fonts/SF-Pro-Rounded-Regular.otf);
+}
+body{
+    background-image: url(/Messi/krzysztof-dubiel-hQBIJsBtyBw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 30px;
+}
+
+#heading{
+    text-align: center;
+    color: red;
+    font-size: 60px;
+    font-family: AKONY;
+    text-decoration: none;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transitions */
+}
+#heading:hover {
+    transform: scale(1.1);
+  }
+#Messi{ 
+  color: #800000;
+}
+
+#P2{
+    text-align: center;
+    color: white;
+    font-family: AKONY;
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+#P1{
+    color: black;
+    font-size: 22px;
+    float: left;
+    width: 35%;
+    margin-top: 90px;
+    margin-left: 50px;
+    text-align: center;
+    background: rgba(255,255,255,0.3);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+    padding: 15px;
+    -webkit-box-shadow: 0 0 32px 0.5px #000000;
+    -moz-box-shadow: 0 0 32px 0.5px #000000;
+    box-shadow: 0 0 32px 0.5px #000000;
+}
+
+img{
+    width: 700px;
+    height: auto;
+    margin-left: 100px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transitions */
+}
+
+img:hover {
+    transform: scale(1.1);
+  }
+
+#list{
+    color: black;
+    font-size: 22px;
+    width: 150px;
+    height: auto;
+    margin-top: -351px;
+    margin-left: 50px;
+    margin-bottom: 1000px;
+    background: rgba(255,255,255,0.3);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 32px 0.5px #000000;
+    -moz-box-shadow: 0 0 32px 0.5px #000000;
+    box-shadow: 0 0 32px 0.5px #000000;
+    float: left;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#buttons{
+    margin-right: px;
+    text-align: center;
+    margin-top: 70px;
+    color: black;
+
+}
+/* From Uiverse.io by lenfear23 */ 
+button {
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(255,255,255,0.3);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+  }
+  
+  button:hover {
+    background: rgba(255,255,255,0.1);
+    -webkit-backdrop-filter: blur(21px);
+    backdrop-filter: blur(21px);
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+  
+  button:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+
+span{
+    color: #800000;
+} 
